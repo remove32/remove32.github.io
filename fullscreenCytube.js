@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $("body").css("overflow-x", "hidden") 
     $("#videowrap-header").prepend("<span class='glyphicon glyphicon-resize-full' title='Fullscreen' id='fullscreenToggle'></span>");
     $("#currenttitle").css("color","black").css("background-color","black").hover(function(){
         $(this).css("color","white").css("background-color","none")

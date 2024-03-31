@@ -30,6 +30,7 @@ function unloadFullscreen(){
     $("#mainpage").css("padding-top","")
     $("#resize-video-smaller").css("display","")
     $("#resize-video-larger").css("display","")
+    $("#fullscreenToggle").removeClass("glyphicon-resize-small").addClass("glyphicon-resize-full")
 }
 
 function loadFullscreen(){
